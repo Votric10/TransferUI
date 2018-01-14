@@ -34,7 +34,7 @@ class Main extends PluginBase implements Listener {
 					}
 						switch($result){
 							case 0:
-								$command = "transferserver 147.135.233.227 19132";
+								$command = "transferserver c32776.leet.cc 32776";
 								$this->getServer()->getCommandMap()->dispatch($sender, $command);
 							break;
               
@@ -43,7 +43,7 @@ class Main extends PluginBase implements Listener {
 					});
 					$form->setTitle("TransferUI Screen");
 					$form->setContent("Please choose your server.");
-					$form->addButton(TextFormat::BOLD . "§c§lRebirth§b§lPE §a§lMinigames");	                          	
+					$form->addButton(TextFormat::BOLD . "§c§l§oFreedom§bCraft§7PE");	                          	
 					$form->sendToPlayer($sender);
 				}
 				else{
